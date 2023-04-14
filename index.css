@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar Section Start */
+
+/*nav {
+    padding: 20px;
+    position:  sticky;
+    top: 0;
+    display: inline-block;
+    z-index: 1;
+    box-shadow: 0 2px 3px rgb(0, 0, 0 / 10%);
+} 
+
+nav .nav-logo {
+    margin-right: 80rem;
+    display: inline-block;
+
+}
+
+nav .nav {
+    margin: 0.5rem;
+    display: inline-block;
+}
+
+nav .right-nav {
+    display: inline-block;
+    text-indent: right;
+}
+
+.nav {
+    text-align: right;
+    list-style-type: disc;
+}*/
+
+/* Navbar Section End */
+
+
+/*Landing Section Start*/
+
+.container {
+    margin: 0 45rem;
+    width: 40%;
+    border-radius: 15px;
+    background-image: url(https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGdhbGF4eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    min-height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    display:  absolute;
+
+}
+
+.front-bg {
+    background-image: url(https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdhbGF4eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    min-height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    display:  absolute;
+}
+
+.bg-image {
+    min-height: 50vh;
+}
+
+.title {
+    font-family: zilla slab;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+    margin:  25px;
+    color: #00C0A3;
+}
+
+.name {
+    font-family: zilla slab;
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #B0A8B9;
+}
+
+/*Landing Section End*/
+
+
+/*About Us Section Start*/
+.text1 { 
+    color: #BA90C6; !important;
+}
+
+.text2 { 
+    color: #E8A0BF; !important;
+}
+
+.wrapper.three {
+    background-color: #C0DBEA;
+}
+.three h3 {
+    font-family: "Ranchers", cursive;
+    background: url(https://drive.google.com/uc?export=view&id=1qvnbL55D_X7Bzo6fwwtXNyjhBhgi1iyX);
+    margin: 1.5rem;
+    display: inline-flex;
+    font-size: 10rem;
+    background-position: 0 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: animatedOne 30s linear infinite;
+}
+@keyframes animatedOne {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+
+/*About Us Section End*/
+
+
+
+
+/*Project Section Start*/
+
+.wrapper.one {
+    background-color: #1a1a1a;
+}
+.drop-main {
+    display: flex;
+    font-size: 7rem;
+    margin: 1.5rem;
+    justify-content: center;
+    font-family: "Russo One", sans-serif;
+}
+.o {
+    opacity: 0;
+    animation: drop 0.4s linear forwards;
+    color: #845EC2;
+}
+.t {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.2s;
+    color: #D65DB1;
+}
+.h {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.4s;
+    color: #FF6F91;
+}
+.e {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.6s;
+    color: #FF9671;
+}
+.r {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.8s;
+    color: #FFC75F;
+}
+/*.s {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.8s;
+    color: #F9F871;
+}
+.a {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.8s;
+    color: #FEFEDF;*/
+}
+@keyframes drop {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    65% {
+        transform: translateY(-17px);
+        opacity: 1;
+    }
+    75% {
+        transform: translateY(-22px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.wrapper.one {
+    background-color: #1a1a1a;
+}
+.drop-main {
+    display: flex;
+    font-size: 7rem;
+    margin: 1.5rem;
+    justify-content: center;
+    font-family: "Russo One", sans-serif;
+}
+.p {
+    opacity: 0;
+    animation: drop 0.4s linear forwards;
+    color: #845EC2;
+}
+.r {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.2s;
+    color: #2C73D2;
+}
+.o {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.4s;
+    color: #FEFEDF;
+}
+.j {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.6s;
+    color: #0089BA;
+}
+.e {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.8s;
+    color: #008E9B;
+}
+
+.c {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.8s;
+    color: #008F7A;
+}
+
+.t {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.8s;
+    color: #845EC2;
+}
+
+.s {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.8s;
+    color: #4E8397;
+}
+
+.a {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.8s;
+    color: #D5CABD;
+}
+
+@keyframes drop {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    65% {
+        transform: translateY(-17px);
+        opacity: 1;
+    }
+    75% {
+        transform: translateY(-22px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+ /*Contact Us Section Start*/
+
+.wrapper.two {
+    background-color: #2c0101;
+    font-size: 6rem;
+    font-family: "Play", sans-serif;
+}
+.neon h3 {
+    margin: 1rem auto;
+    animation: neon 1s ease infinite;
+}
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+        color: #f5efcb;
+    }
+    50% {
+        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+        color: #eda0d3;
+    }
+}
+
+/*Project Section End*/
+
+
+
+
+/*Contact Us Section Start*/
+
+.wrapper.two {
+    background-color: #2c0101;
+    font-size: 50px;
+    font-family: "Play", sans-serif;
+}
+.neon h3 {
+    margin: 1rem auto;
+    animation: neon 1s ease infinite;
+}
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+        color: #f5efcb;
+    }
+    50% {
+        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+        color: #eda0d3;
+    }
+}
+
+
+
+
+
+/*Contact Us Section End*/
