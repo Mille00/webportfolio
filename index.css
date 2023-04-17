@@ -5,8 +5,14 @@
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: " ", sans-serif;
+    /*font-family: 'Over the Rainbow', cursive;*/
 }
+
+
+
+
+
 
 /* Navbar Section Start */
 
@@ -43,14 +49,15 @@ nav .right-nav {
 /* Navbar Section End */
 
 
+
+
+
 /*Landing Section Start*/
 
 .container {
-    margin: 0 45rem;
     width: 40%;
     border-radius: 15px;
-    background-image: url(https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGdhbGF4eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
-    min-height: 45vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
@@ -60,17 +67,19 @@ nav .right-nav {
 }
 
 .front-bg {
-    background-image: url(https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdhbGF4eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
-    min-height: 40vh;
+    background-image: url(./images/background.jpg);
+    background-size: 100%;
+    background-color: grey;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100%;
+    background-position: center-top;
     background-attachment: fixed;
     display:  absolute;
 }
 
 .bg-image {
-    min-height: 50vh;
+    min-height: 100vh;
 }
 
 .title {
@@ -78,8 +87,9 @@ nav .right-nav {
     font-size: 100px;
     font-weight: 600;
     text-align: center;
-    margin:  25px;
-    color: #00C0A3;
+    /*margin:  25px;*/
+    color: #F9F871;
+    margin-top: 50px;
 }
 
 .name {
@@ -88,15 +98,29 @@ nav .right-nav {
     font-weight: 600;
     margin-bottom: 3rem;
     text-align: center;
-    color: #B0A8B9;
+    color: #FFC75F;
+}
+
+.life {
+    font-family: zilla slab;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #FF9671;
 }
 
 /*Landing Section End*/
 
 
+
+
+
 /*About Us Section Start*/
+
 .text1 { 
     color: #BA90C6; !important;
+    font-size: 100px; !important;
 }
 
 .text2 { 
@@ -108,10 +132,10 @@ nav .right-nav {
 }
 .three h3 {
     font-family: "Ranchers", cursive;
-    background: url(https://drive.google.com/uc?export=view&id=1qvnbL55D_X7Bzo6fwwtXNyjhBhgi1iyX);
+    background: url(./images/beach.jpeg);
     margin: 1.5rem;
     display: inline-flex;
-    font-size: 10rem;
+    font-size: 15rem;
     background-position: 0 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #5b728a54;
@@ -126,81 +150,14 @@ nav .right-nav {
     }
 }
 
-
 /*About Us Section End*/
 
 
 
 
-/*Project Section Start*/
 
-.wrapper.one {
-    background-color: #1a1a1a;
-}
-.drop-main {
-    display: flex;
-    font-size: 7rem;
-    margin: 1.5rem;
-    justify-content: center;
-    font-family: "Russo One", sans-serif;
-}
-.o {
-    opacity: 0;
-    animation: drop 0.4s linear forwards;
-    color: #845EC2;
-}
-.t {
-    opacity: 0;
-    animation: drop 0.4s linear forwards 0.2s;
-    color: #D65DB1;
-}
-.h {
-    opacity: 0;
-    animation: drop 0.4s linear forwards 0.4s;
-    color: #FF6F91;
-}
-.e {
-    opacity: 0;
-    animation: drop 0.4s linear forwards 0.6s;
-    color: #FF9671;
-}
-.r {
-    opacity: 0;
-    animation: drop 0.4s linear forwards 0.8s;
-    color: #FFC75F;
-}
-/*.s {
-    opacity: 0;
-    animation: drop 0.4s linear forwards 0.8s;
-    color: #F9F871;
-}
-.a {
-    opacity: 0;
-    animation: drop 0.4s linear forwards 0.8s;
-    color: #FEFEDF;*/
-}
-@keyframes drop {
-    0% {
-        transform: translateY(-200px);
-        opacity: 0;
-    }
-    50% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-    65% {
-        transform: translateY(-17px);
-        opacity: 1;
-    }
-    75% {
-        transform: translateY(-22px);
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
+
+/*Project Section Start*/
 
 .wrapper.one {
     background-color: #1a1a1a;
@@ -250,12 +207,6 @@ nav .right-nav {
     color: #845EC2;
 }
 
-.s {
-    opacity: 0;
-    animation: drop 0.4s linear forwards 0.8s;
-    color: #4E8397;
-}
-
 .a {
     opacity: 0;
     animation: drop 0.4s linear forwards 0.8s;
@@ -285,6 +236,12 @@ nav .right-nav {
     }
 }
 
+ /*Project Section End*/
+
+
+
+
+
  /*Contact Us Section Start*/
 
 .wrapper.two {
@@ -313,6 +270,7 @@ nav .right-nav {
 
 
 
+
 /*Contact Us Section Start*/
 
 .wrapper.two {
@@ -336,8 +294,113 @@ nav .right-nav {
     }
 }
 
-
-
-
-
 /*Contact Us Section End*/
+
+
+
+
+
+/* Tools Start */
+
+.wrapper.ten {
+    background-color: #0e2839;
+}
+.bounce {
+    font-size: 5rem;
+    width: 100%;
+    margin: 3rem auto;
+    display: inline-flex;
+    justify-content: center;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, #211e1e2e);
+}
+.bounce span {
+    display: inline-flex;
+    color: #c7f4ff;
+    font-family: "Play", sans-serif;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%,
+    50%,
+    100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20px);
+    }
+}
+.ten span:nth-of-type(1) {
+    animation-delay: 0.1s;
+}
+.ten span:nth-of-type(2) {
+    animation-delay: 0.2s;
+}
+.ten span:nth-of-type(3) {
+    animation-delay: 0.3s;
+}
+.ten span:nth-of-type(4) {
+    animation-delay: 0.4s;
+}
+.ten span:nth-of-type(5) {
+    animation-delay: 0.5s;
+}
+.ten span:nth-of-type(6) {
+    animation-delay: 0.6s;
+}
+
+/* Tools End */
+
+
+
+
+
+/*Social Media Links Start*/
+
+.wrapper.ten {
+    background-color: #0e2839;
+}
+.bounce {
+    font-size: 5rem;
+    width: 100%;
+    margin: 3rem auto;
+    display: inline-flex;
+    justify-content: center;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, #211e1e2e);
+}
+.bounce span {
+    display: inline-flex;
+    color: #c7f4ff;
+    font-family: "Play", sans-serif;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%,
+    50%,
+    100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20px);
+    }
+}
+.ten span:nth-of-type(1) {
+    animation-delay: 0.1s;
+}
+.ten span:nth-of-type(2) {
+    animation-delay: 0.2s;
+}
+.ten span:nth-of-type(3) {
+    animation-delay: 0.3s;
+}
+.ten span:nth-of-type(4) {
+    animation-delay: 0.4s;
+}
+.ten span:nth-of-type(5) {
+    animation-delay: 0.5s;
+}
+.ten span:nth-of-type(6) {
+    animation-delay: 0.6s;
+}
+
+/*Social Media Links End*/
+
